@@ -8,6 +8,8 @@ interface RootLayoutProps {
   children: React.ReactNode;
 }
 
+
+//t3
 export default function RootLayout({ children }: RootLayoutProps) {
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
