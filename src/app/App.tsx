@@ -5,6 +5,8 @@ import RootLayout from '@/common/components/layout/RootLayout';
 import IosInstallGuide from '@/common/components/system/IosInstallGuide';
 import UpdateBanner from '@/common/components/system/UpdateBanner';
 
+
+// t2
 export default function App() {
   return (
     <Provider>
