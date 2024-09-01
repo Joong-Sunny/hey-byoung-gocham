@@ -9,6 +9,12 @@ export default function LoginPage() {
   if (!window.Kakao.isInitialized()) {
     window.Kakao.init(import.meta.env.VITE_KAKAO_JAVASCRIPT_KEY || '');
   }
+  
+  // 추가기능 A
+  // 추가기능 A 관련함수
+  // 추가기능 A 관련함수
+  // 추가기능 A 관련함수
+  // 추가기능 A 관련함수
 
   const REDIRECT_URI = import.meta.env.VITE_KAKAO_REDIRECT_API;
 
@@ -18,6 +24,12 @@ export default function LoginPage() {
     });
   };
 
+  // 추가기능 B
+  // 추가기능 B 관련함수
+  // 추가기능 B 관련함수
+  // 추가기능 B 관련함수
+  // 추가기능 B 관련함수
+  
   return (
     <div
       className="relative flex h-full w-full flex-col"
@@ -27,10 +39,15 @@ export default function LoginPage() {
       }}
     >
       <BackIcon
-        onClick={() => navigate('/')}
+        onClick={() => {
+          navigate('/')
+          // 추가기능 B 관련 코드
+        }}
         className="ml-[0.9rem] cursor-pointer self-start"
         color="black"
       />
+      {/*추가기능 A 관련 코드*/}
+      {/*추가기능 A 관련 코드*/}
       <div className="ml-[2.5rem] mt-[3.3rem] h-4/6">
         <div
           className="font-custom-body1"
