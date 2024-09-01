@@ -24,6 +24,12 @@ export default function LoginPage() {
     });
   };
 
+  // 추가기능 B
+  // 추가기능 B 관련함수
+  // 추가기능 B 관련함수
+  // 추가기능 B 관련함수
+  // 추가기능 B 관련함수
+  
   return (
     <div
       className="relative flex h-full w-full flex-col"
@@ -33,7 +39,10 @@ export default function LoginPage() {
       }}
     >
       <BackIcon
-        onClick={() => navigate('/')}
+        onClick={() => {
+          navigate('/')
+          // 추가기능 B 관련 코드
+        }}
         className="ml-[0.9rem] cursor-pointer self-start"
         color="black"
       />
